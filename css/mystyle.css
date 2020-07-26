@@ -1,0 +1,266 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #171717;
+    border-bottom: 1px solid #333333;
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.nav-item a:hover {
+    color: #F9B234 !important;
+    font-weight: 400;
+}
+
+.nav-item.active a{
+    color: #F9B234 !important;
+    font-weight: 400;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+/* carousel */
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'Lora';
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+.features h3, .designer h3, .similar-product h3, .cart-header h3, .checkout-modal-success h3, .category-product h3 {
+    font-family: 'Lora';
+    color: #182690;
+    font-weight: bold;
+}
+
+.features p, .designer p, footer p, .similar-product p, .cart-header p, .checkout-modal-success p, .category-product p {
+    font-weight: 400;
+    color: #B8B8B8;
+}
+
+.figure h5 {
+    font-weight: 400;
+    color: #171717;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    border-radius: 4%;
+    height: 173px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.cart-breadcrumb {
+    margin-top: 50px;
+}
+
+/* Single Product */
+.product-thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+}
+
+.btn-product a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+/* design-by */
+.designed-by h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #B7B7B7;
+    margin-bottom: 20px;
+}
+
+.designed-by h4 {
+    font-size: 18px;
+    color: #171717;
+}
+
+.designed-by p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #171717;
+}
+
+.designed-by p span {
+      color: #B7B7B7;
+}
+
+.product-description {
+    background-color: #F6F7FB;
+    height: 350px;
+}
+
+.product-description .tab-content{
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+    font-weight: 300;
+    color: #868686;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.product-review {
+    height: 360px;
+    overflow: scroll;
+}
+
+.product-review h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+}
+
+.btn-review {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+/* similar */
+.similar-product {
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+.similar-img {
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+.similar-img:hover {
+    filter: brightness(70%);
+    transform: scale(1.03);
+}
+
+.category-product {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.category-img {
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+.category-img:hover {
+    filter: brightness(70%);
+    transform: scale(1.03);
+}
+
+.designer-img {
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+.designer-img:hover {
+    filter: brightness(70%);
+    transform: scale(1.03);
+    box-shadow: #333333;
+}
+
+.checkout-detail {
+    background-color: #F6F7FB;
+    border: 1px solid #EAEAEA;
+    color: #171717;
+}
+
+/* btn */
+.mybtn-outline-warning {
+    color: #ffc107;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffc107;
+    font-weight: 600;
+}
+
+.mybtn-outline-warning:hover {
+    color: aliceblue;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-weight: 600;
+}
+
+.mybtn-outline-secondary {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+    font-weight: 600;
+}
+  
+.mybtn-outline-secondary:hover {
+    color: aliceblue;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    font-weight: 600;
+}
+
+.breadcrumb-text a:hover {
+    text-decoration: none;
+    color: #ffc107;
+}
